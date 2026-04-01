@@ -1,6 +1,6 @@
 # Git — 논문 버전 관리
 
-논문 원고를 Git으로 관리하는 방법을 다룬다. 코드가 아닌 **글**을 위한 Git 사용법에 초점을 맞춘다.
+논문 원고를 Git으로 관리하는 방법을 다룬다. 명령어를 깊게 익히기보다, 흐름을 이해하고 실제 작업은 에이전트와 함께 진행하는 방식에 초점을 맞춘다.
 
 ## 왜 논문에 Git을 쓰는가?
 
@@ -13,16 +13,18 @@
 
 | 중요도 | 섹션 | 설명 |
 |---|---|---|
-| ⭐⭐⭐ | [sec1. Git이란 무엇인가](sec1_what_is_git.md) | 비개발자를 위한 핵심 개념 |
-| ⭐ | [sec2. 설치 & 초기 설정](sec2_installation.md) | 한 번 하면 끝 |
-| ⭐⭐⭐ | [sec3. 기본 명령어](sec3_basic_commands.md) | add, commit, push, pull — 매일 쓰는 핵심 |
-| ⭐⭐ | [sec4. 커밋 메시지](sec4_commit_messages.md) | 에이전트가 도와주지만 원리는 알아둘 것 |
-| ⭐⭐ | [sec5. 되돌리기](sec5_undoing_changes.md) | 실수했을 때의 안전망 |
-| ⭐⭐ | [sec6. 브랜치 기초](sec6_branching.md) | 초고와 수정본 분리 관리 |
-| ⭐⭐⭐ | [sec7. GitHub 연동](sec7_github.md) | 백업 & 지도교수 공유 — 반드시 설정 |
-| ⭐ | [sec8. .gitignore](sec8_gitignore.md) | 추적 제외 파일 설정, 처음에 한 번 |
+| ⭐⭐⭐ | [sec1. Git이란 무엇인가](sec1_what_is_git.md) | Git을 그냥 어떻게 받아들이면 되는지 |
+| ⭐ | [sec2. 설치 & 초기 설정](sec2_installation.md) | 처음에 한 번만 하는 설정 |
+| ⭐⭐⭐ | [sec7. GitHub 연동](sec7_github.md) | 온라인 백업 연결하기 |
+| ⭐⭐⭐ | [sec3. 기본 명령어](sec3_basic_commands.md) | 에이전트와 함께 쓰는 기본 흐름 |
+| ⭐⭐ | [sec4. 커밋 메시지](sec4_commit_messages.md) | 메시지는 에이전트에게 맡기기 |
+| ⭐⭐ | [sec5. 되돌리기](sec5_undoing_changes.md) | 잘못됐을 때 에이전트와 안전하게 되돌리기 |
+| ⭐⭐ | [sec6. 브랜치 기초](sec6_branching.md) | 큰 수정 전 따로 작업하는 방법 |
+| ⭐ | [sec8. .gitignore](sec8_gitignore.md) | 불필요한 파일을 Git에서 빼두기 |
 
 > ⭐⭐⭐ 반드시 숙지 · ⭐⭐ 알아두면 유용 · ⭐ 필요할 때 참고
+
+> AI 에이전트를 기본으로 사용하는 흐름이라면, 설치 직후 `sec7. GitHub 연동`까지 먼저 보고 원격 백업을 연결한 뒤 기본 명령어로 넘어가는 편이 더 자연스럽다.
 
 ## 메모
 

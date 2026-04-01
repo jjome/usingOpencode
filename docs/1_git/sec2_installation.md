@@ -33,7 +33,17 @@ git config --global user.name "홍길동"
 git config --global user.email "hong@university.ac.kr"
 ```
 
-학교 이메일을 쓰면 나중에 누가 작업했는지 구분하기 쉽다.
+이메일을 설정해두면 나중에 누가 작업했는지 구분하기 쉽다.
+
+## 저장소 시작
+
+논문 폴더에서 Git을 시작할 때도 한 번만 하면 된다.
+
+```bash
+git init
+```
+
+이 명령을 치면 폴더 안에 `.git`이 생기고, 그때부터 그 폴더를 Git으로 관리한다.
 
 ## 확인
 
