@@ -35,18 +35,21 @@ AI 도구에 익숙하지 않은 학생이 논문 작성 과정(자료 조사 �
 
 ```
 docs/
-├── git/             # Git 기초 — 논문 버전 관리
-├── cursor/          # Cursor 편집기 사용법
-├── opencode/        # OpenCode CLI 설정 & 명령어
-├── sisyphus/        # Sisyphus 에이전트 활용법
-├── claude/          # Claude와 효과적으로 대화하는 법
-└── workflows/       # 논문 작성 실전 워크플로우
+├── 1_git/           # Git 기초 — 논문 버전 관리
+├── 2_claude/        # Claude와 효과적으로 대화하는 법
+├── 3_cursor/        # Cursor 편집기 사용법
+├── 4_opencode/      # OpenCode CLI 설정 & 명령어
+├── 5_sisyphus/      # Sisyphus 에이전트 활용법
+└── 6_workflows/     # 논문 작성 실전 워크플로우
 ```
 
-## 학습 순서 (권장)
+## 학습 순서
 
-1. **Git** — 내 글의 버전을 관리하는 습관부터
-2. **Cursor** — 편집기 기본 사용법
-3. **Claude** — AI에게 좋은 질문을 하는 법
-4. **OpenCode & Sisyphus** — 고급 활용 (자동화, 에이전트 위임)
-5. **Workflows** — 전체 도구를 엮은 논문 작성 실전
+폴더 번호 순서대로 진행한다. 각 단계는 이전 단계의 이해를 전제로 한다.
+
+1. **Git** — 파일 관리 습관부터 (모든 작업의 기반)
+2. **Claude** — AI에게 좋은 질문을 하는 법 (도구 쓰기 전에 프롬프팅부터)
+3. **Cursor** — 편집기에서 Claude 활용하기
+4. **OpenCode** — 터미널 기반 고급 AI 도구
+5. **Sisyphus** — 에이전트에게 작업 위임하기
+6. **Workflows** — 전체 도구를 엮은 논문 작성 실전
